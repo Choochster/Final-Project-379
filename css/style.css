@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    
+    
+    --background-color: #1a1c1e;
+    --onBackground-color: #e2e2e6;
+
+
+
+}
+
+body{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background: var(--background-color);
+    text-align: center;
+}
+
+#welcome-text{
+    color: var(--onBackground-color);
+    font-size: 50px;
+
+}
+
+
+
+.main-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 1%;
+    position: relative;
+    background-image:url(../media/images/jkj.jpg) ;
+}
+
+.insert-one{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19%;
+    margin-top: 1%;
+    position: fixed;
+    margin: -40vw 140vh;
+    margin-bottom: 1%;
+    justify-content: space-around;
+
+}
+
+
+.insert-two{
+    display: block;
+    margin-left: left;
+    margin-right: auto;
+    padding-left: 2;
+    width: 19%;
+    margin-top: 1%;
+    position: fixed;
+    margin: -35vw 10vh;
+    justify-content: space-around;
+
+
+}
+
+.insert-three{
+    display: block;
+    margin-left: left;
+    margin-right: auto;
+    padding-left: 2;
+    width: 19%;
+    margin-top: 1%;
+    position: fixed;
+    margin: -15vw 140vh;
+    justify-content: space-around;
+
+
+}
+
+
+.red-dot{
+    display: block;
+   
+    width: 2%;
+    
+    transform: translate(1100px, -700px);
+position: fixed;
+  }
+
+ 
+
+  .red-dottwo{
+
+    display: block;
+   
+    width: 2%;
+    
+    transform: translate(1100px, -350px);
+position: fixed;
+
+
+  }
+
+  .red-dotthree{
+
+    display: block;
+   
+    width: 2%;
+    
+    transform: translate(850px, -600px);
+position: fixed;
+
+
+  }
+
